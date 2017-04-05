@@ -5,7 +5,7 @@ import org.openqa.selenium.WebElement;
 import net.serenitybdd.core.annotations.findby.FindBy;
 import net.serenitybdd.core.pages.PageObject;
 
-public class GLLProductsPage extends PageObject {
+public class GllProductsPage extends PageObject {
 	@FindBy(xpath=".//*[@id='mainNavi']/ul/li[1]/div/div/div[1]/ul/li[1]/a[2]")
 	WebElement airPureAirPurifier ; 
 	@FindBy(xpath=".//*[@id='header']/div[1]/div[2]/div[1]/div/a")
